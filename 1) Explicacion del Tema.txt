@@ -1,0 +1,13 @@
+                                                                      EXPLICACION DEL PROBLEMA
+
+El problema es el cálculo del costo de una póliza de seguro que según ciertos factores afectan el precio. La aseguradora TK-U ofrece una tarifa base de Q2000 para todos los clientes, pero este valor puede subir dependiendo de diferentes factores.
+
+Las condiciones que afectan la cotización son:
+
+Edad del asegurado: Se aplican recargos adicionales según la edad que tenga la persona. Existen tres rangos de edad con diferentes tasas de incremento: 18-24 años, 25-49 años y 50 o más años.
+
+Estado civil: Si el asegurado está casado, también se debe tomar en cuenta la edad del cónyuge y agregar un recargo adicional tomando en cuenta el mismo esquema de edades anterior.
+
+Cantidad de hijos: Cada hijo añade un porcentaje fijo de recargo sobre la tarifa base.
+
+El objetivo del programa es solicitar estos datos al usuario, calcular los recargos correspondientes y mostrar el precio final de la póliza utilizando las condiciones mencionadas.
