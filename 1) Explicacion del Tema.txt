@@ -10,4 +10,10 @@ Estado civil: Si el asegurado está casado, también se debe tomar en cuenta la 
 
 Cantidad de hijos: Cada hijo añade un porcentaje fijo de recargo sobre la tarifa base.
 
-El objetivo del programa es solicitar estos datos al usuario, calcular los recargos correspondientes y mostrar el precio final de la póliza utilizando las condiciones mencionadas.
+Cantidad de propiedades: Cada propiedad que tenga el asegurado añadirá un recargo del 35% sobre la cotización base.
+
+Salario del asegurado: Se aplicará un recargo adicional del 5% sobre el salario del asegurado.
+
+El objetivo del programa es solicitar estos datos al usuario, calcular los recargos correspondientes y mostrar el precio final de la póliza utilizando los factores mencionados.
+
+Además, el programa debe permitir realizar múltiples cotizaciones hasta que el usuario ingrese la palabra "Salir".

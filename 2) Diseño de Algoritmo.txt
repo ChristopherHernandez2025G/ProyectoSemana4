@@ -1,28 +1,39 @@
                                                                          DISEÑO DEL ALGORITMO
 
-1) Solicitar al usuario su nombre
+1) Iniciar un bucle que permita solicitar cotizaciones hasta que el usuario ingrese "Salir".
 
-2) Solicitar la edad del usuario y convertirla en un valor numérico
+2) Solicitar al usuario su nombre.
 
-3) Preguntar si esta casada y convertir la respuesta a mayúsculas para hacer la comparación
- - si el usuario esta casado, se le debe solicitar la edad del cónyuge y convertirla en un valor numérico
+3) Solicitar la edad del usuario y convertirla a un valor numérico.
 
-4) Preguntar si tiene hijos y convertir la respuesta a mayúsculas
- - si el usuario tiene hijos, solicitar la cantidad y convertirla a un valor numérico
+4) Preguntar si está casado y convertir la respuesta a mayúsculas para hacer la comparación.
+ -Si el usuario está casado, se debe solicitar la edad del cónyuge y convertirla a un valor numérico.
 
-5) Inicializar las variables de recargo total y precio final 
+5) Preguntar si tiene hijos y convertir la respuesta a mayúsculas.
+ -Si el usuario tiene hijos, solicitar la cantidad y convertirla a un valor numérico.
 
-6) Calcular el recargo por edad del asegurado, usando los rangos de edad dados:
- -Si el asegurado tiene entre 18 y 24 años, se le aplica un recargo del 10%
- -Si está entre 25 y 49 años, se le aplica un recargo del 20%
- -Si tiene 50 o más años, el recargo es del 30%
+6) Solicitar la cantidad de propiedades que posee el asegurado y convertirla a un valor numérico.
 
-7) Calcular el recargo por edad del cónyuge, utilizando el mismo esquema si el usuario está casado
+7) Solicitar el salario mensual del asegurado y convertirlo a un valor numérico.
 
-8) Calcular el recargo por cantidad de hijos, multiplicando el recargo unitario por el número de hijos
+8) Inicializar las variables de recargo total y precio final.
 
-9) Sumar todos los recargos al precio base para obtener el precio final de la póliza.
+9) Calcular el recargo por edad del asegurado, usando los rangos de edad definidos:
+ -Si el asegurado tiene entre 18 y 24 años, se le aplica un recargo del 10%.
+ -Si está entre 25 y 49 años, se le aplica un recargo del 20%.
+ -Si tiene 50 o más años, el recargo es del 30%.
 
-10) Mostrar los resultados al usuario, incluyendo el recargo total aplicado y el precio final del seguro
+10) Calcular el recargo por edad del cónyuge, siguiendo el mismo esquema si el usuario está casado.
 
-   
+11) Calcular el recargo por cantidad de hijos, multiplicando el recargo unitario por el número de hijos.
+
+12) Calcular el recargo por propiedades, sumando el 35% del precio base por cada propiedad registrada.
+
+13) Calcular el recargo por salario, sumando el 5% del salario mensual del asegurado.
+
+14) Sumar todos los recargos al precio base para obtener el precio final de la póliza.
+
+15) Mostrar los resultados al usuario, incluyendo el recargo total aplicado y el precio final del seguro.
+
+16) Preguntar si desea realizar otra cotización o salir del programa.
+
